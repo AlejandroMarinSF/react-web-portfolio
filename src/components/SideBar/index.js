@@ -5,7 +5,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const SideBar = () => {
   return (
@@ -29,6 +29,16 @@ const SideBar = () => {
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/alejandro-marin-36a72718b/'>
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href='https://github.com/AlejandroMarinSF'>
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href='https://wa.me/3425170830'>
+                    <FontAwesomeIcon icon={faWhatsapp} color="#4d4d4e" />
                 </a>
             </li>
         </ul>
